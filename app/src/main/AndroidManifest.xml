@@ -15,11 +15,12 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            tools:ignore="ExtraText">
+            tools:ignore="ExtraText"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-            android:theme="@style/Theme.ALLumni.NoActionBar"
+            android:theme="@style/Theme.ALLumni.NoActionBar
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
