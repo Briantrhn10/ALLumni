@@ -4,7 +4,17 @@
     <string name="teks1">Tuliskan email anda agar kami dapat beberapa pertanyaan untuk mendapatkan username/password baru :</string>
     <string name="email">email</string>
     <string name="batal">Batal</string>
-    <string name="kirim">Kirim</string>
     <string name="back_button">back_button</string>
     <string name="back_icon">back_icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="forum">Forum</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="profil">Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>

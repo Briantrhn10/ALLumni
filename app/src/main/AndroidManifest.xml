@@ -13,22 +13,52 @@
         android:theme="@style/Theme.ALLumni"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LupaPassword_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FormUserActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
-            tools:ignore="ExtraText"
-            android:theme="@style/Theme.ALLumni.NoActionBar">
+            android:theme="@style/Theme.ALLumni.NoActionBar"
+            tools:ignore="ExtraText">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
             android:theme="@style/Theme.ALLumni.NoActionBar
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
