@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
 
         //Kode untuk menjalankan main screen setelah timer splash screen habis
         Handler().postDelayed({
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,StudyTracerActivity::class.java))
         }, SPLASH)
     }
 }

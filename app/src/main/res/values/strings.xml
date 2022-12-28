@@ -16,5 +16,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="nama">Nama</string>
+    <string name="Email">Email</string>
+    <string name="NIM">NIM</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="alamat">Alamat</string>
+    <string name="perusahaan">Perusahaan</string>
+    <string name="lokasi">Lokasi Terkini</string>
+    <string name="program">Program Studi</string>
+    <string name="tanggal">Tanggal Lahir</string>
+    <string name="studi">Studi Terakhir</string>
+    <string name="nomor">Nomor HP</string>
+    <string name="angkatan">Angkatan</string>
+    <string name="tahun">Tahun Lulus</string>
+    <string name="edit">edit</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="todo">TODO</string>
 
 </resources>

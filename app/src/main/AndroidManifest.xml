@@ -13,29 +13,65 @@
         android:theme="@style/Theme.ALLumni"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
-            android:exported="false">
+            android:name=".StudyTracerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".NotifikasiActivity"
-            android:exported="false">
+            android:name=".LupaPassSuksesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FormSuksesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginSukses"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".KonfirmasiDataActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".LupaPassword_Activity"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".FormUserActivity"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.ALLumni.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -48,7 +84,7 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-            android:theme="@style/Theme.ALLumni.NoActionBar
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
